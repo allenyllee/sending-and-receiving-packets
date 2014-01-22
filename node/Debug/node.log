@@ -1,0 +1,20 @@
+﻿Build started 2013/9/30 下午 02:48:29.
+     1>Project "D:\igs\Project\demo\SendingAndReceivingPackets\node\node.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\node.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\node.unsuccessfulbuild".
+         Touching "Debug\node.lastbuildstate".
+     1>Done Building Project "D:\igs\Project\demo\SendingAndReceivingPackets\node\node.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.04

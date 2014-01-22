@@ -58,7 +58,7 @@ int main( int argc, char * argv[] )
 				sender.GetPort(), bytes_read );
 		}
 		
-		wait( 0.25f );
+		wait( 1.0f );
 	}
 	
 	// shutdown socket layer

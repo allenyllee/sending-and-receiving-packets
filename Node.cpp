@@ -67,21 +67,21 @@ int main( int argc, char * argv[] )
 	while ( true )
 	{
 		const char data[] = "hello world!";
-		for ( int i = 0; i < (int) addresses.size(); ++i )
-			socket.Send( addresses[i], data, sizeof( data ) );
+		//for ( int i = 0; i < (int) addresses.size(); ++i )
+			//socket.Send( addresses[i], data, sizeof( data ) );
 			
 		while ( true )
 		{
 			Address sender;
 			unsigned char buffer[256];
 			int bytes_read = socket.Receive( sender, buffer, sizeof( buffer ) );
-			if ( !bytes_read )
-				break;
+			//if ( !bytes_read )
+				//break;
 		
 			printf( "received packet from %d.%d.%d.%d:%d (%d bytes)\n", sender.GetA(), sender.GetB(), sender.GetC(), sender.GetD(), sender.GetPort(), bytes_read );
 		}
 		
-		wait( 1.0f );
+		wait( 0.5f );
 	}
 	
 	// shutdown socket layer
